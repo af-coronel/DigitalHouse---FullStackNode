@@ -205,3 +205,44 @@ article div.main-article{
         width: 22%;
     }
 }
+
+footer{
+  
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+   display: flex;
+    }
+    .fa-credit-card:before {
+      content: "\f09d";
+      display: flex;
+  }
+  .infoTjta{
+    display: flex;
+    flex-direction: column;
+  }
+  .contfooter{
+    display: flex;
+    flex-direction: row;
+  }
+
+.description:hover{
+  color: black;
+}
+.fa-truck {
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-truck:hover {
+  transform: rotate(-90deg);
+}
+
+.descripcion {
+  display: none;
+  margin-top: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+:hover .descripcion {
+  display: block;
+  opacity: 1;
+}
