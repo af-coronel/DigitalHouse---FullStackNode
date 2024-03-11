@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000
 
 
 // Iniciar el servidor en el puerto 5000, tuve que hacer esto porque no puedo acceder al puerto 3000 o 3001:
-app.listen(5000, () => {
+app.listen(PORT, () => {
   console.log('Servidor Express iniciado en el puerto 5000');
 });
 
